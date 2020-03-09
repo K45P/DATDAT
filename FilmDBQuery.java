@@ -10,7 +10,7 @@ public class FilmDBQuery extends FilmDBConn{
     public FilmDBQuery(){}
 
     public void QueryOne(String actorName){
-
+        connect();
        
         
 

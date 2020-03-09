@@ -16,7 +16,7 @@ public class FilmDBConn {
             p.put("user", "admin");
             p.put("password", "password");           
 	    //            conn = DriverManager.getConnection("jdbc:mysql://mysql.ansatt.ntnu.no/sveinbra_ektdb?autoReconnect=true&useSSL=false",p);
-            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1/ekt?autoReconnect=true&useSSL=false",p);
+            conn = DriverManager.getConnection("jdbc:mysql://localhost/filmDatabase?autoReconnect=true&useSSL=false",p);
         } catch (Exception e)
     	{
             throw new RuntimeException("Unable to connect", e);
